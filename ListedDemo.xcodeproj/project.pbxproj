@@ -122,12 +122,12 @@
 		6F1D51E62A279DA70007A794 /* ListedDemo */ = {
 			isa = PBXGroup;
 			children = (
-				6F9C5D4F2A2D247F00753F1F /* Util */,
 				6FEB0BB02A279DD000734B22 /* EntryPoint */,
 				6FEB0BB22A279DD000734B22 /* model */,
 				6FEB0BB42A279DD000734B22 /* repository */,
 				6FEB0BAB2A279DD000734B22 /* UI */,
 				6FEB0BA92A279DD000734B22 /* viewmodel */,
+				6F9C5D4F2A2D247F00753F1F /* Util */,
 				6F1D51EB2A279DA80007A794 /* Assets.xcassets */,
 				6F1D51ED2A279DA80007A794 /* Preview Content */,
 			);

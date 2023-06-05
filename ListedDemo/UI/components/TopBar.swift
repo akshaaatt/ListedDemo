@@ -11,6 +11,7 @@ struct TopBar: View {
     var body: some View {
         HStack {
             Text("Dashboard")
+                .foregroundColor(Constants.white)
                 .fontWeight(.semibold)
                 .font(.title)
                 .foregroundColor(Color.white)

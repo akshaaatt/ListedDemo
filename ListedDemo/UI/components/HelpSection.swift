@@ -16,6 +16,7 @@ struct HelpSection: View {
                 .padding(.leading, 12)
             
             Text("Talk with us")
+                .foregroundColor(Constants.black)
                 .fontWeight(.semibold)
                 .font(.callout)
                 .lineSpacing(24)
@@ -37,6 +38,7 @@ struct HelpSection: View {
                 .padding(.leading, 12)
             
             Text("Frequently Asked Questions")
+                .foregroundColor(Constants.black)
                 .fontWeight(.semibold)
                 .font(.callout)
                 .lineSpacing(24)

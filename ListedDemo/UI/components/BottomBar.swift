@@ -16,6 +16,7 @@ struct BottomBar: View {
                     .frame(width: 32, height: 32)
                 
                 Text("Links")
+                    .foregroundColor(Constants.black)
                     .fontWeight(.semibold)
                     .font(.caption2)
             }
@@ -29,6 +30,7 @@ struct BottomBar: View {
                     .frame(width: 32, height: 32)
                 
                 Text("Courses")
+                    .foregroundColor(Constants.black)
                     .fontWeight(.semibold)
                     .font(.caption2)
             }
@@ -49,6 +51,7 @@ struct BottomBar: View {
                     .frame(width: 32, height: 32)
                 
                 Text("Campaigns")
+                    .foregroundColor(Constants.black)
                     .fontWeight(.semibold)
                     .font(.caption2)
                     .fixedSize()
@@ -63,6 +66,7 @@ struct BottomBar: View {
                     .frame(width: 32, height: 32)
                 
                 Text("Profile")
+                    .foregroundColor(Constants.black)
                     .fontWeight(.semibold)
                     .font(.caption2)
             }

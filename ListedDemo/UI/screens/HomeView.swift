@@ -91,6 +91,7 @@ struct HomeView: View {
                             VStack {
                                 HStack {
                                     Text("Overview")
+                                        .foregroundColor(Constants.black)
                                         .font(.subheadline)
                                         .lineSpacing(20)
                                     
@@ -130,11 +131,13 @@ struct HomeView: View {
                                     
                                     VStack(alignment: .leading, spacing: 4) {
                                         Text(String(homeViewModel.apiData?.todayClicks ?? 0))
+                                            .foregroundColor(Constants.black)
                                             .fontWeight(.semibold)
                                             .font(.callout)
                                             .lineSpacing(24)
                                         
                                         Text("Today’s clicks")
+                                            .foregroundColor(Constants.black)
                                             .font(.subheadline)
                                             .lineSpacing(20)
                                     }
@@ -150,11 +153,13 @@ struct HomeView: View {
                                     
                                     VStack(alignment: .leading, spacing: 4) {
                                         Text(homeViewModel.apiData?.topLocation ?? "")
+                                            .foregroundColor(Constants.black)
                                             .fontWeight(.semibold)
                                             .font(.callout)
                                             .lineSpacing(24)
                                         
                                         Text("Top Location")
+                                            .foregroundColor(Constants.black)
                                             .font(.subheadline)
                                             .lineSpacing(20)
                                     }
@@ -170,11 +175,13 @@ struct HomeView: View {
                                     
                                     VStack(alignment: .leading, spacing: 4) {
                                         Text(homeViewModel.apiData?.topSource ?? "")
+                                            .foregroundColor(Constants.black)
                                             .fontWeight(.semibold)
                                             .font(.callout)
                                             .lineSpacing(24)
                                         
                                         Text("Top source")
+                                            .foregroundColor(Constants.black)
                                             .font(.subheadline)
                                             .lineSpacing(20)
                                             .fixedSize()
@@ -191,11 +198,13 @@ struct HomeView: View {
                                     
                                     VStack(alignment: .leading, spacing: 4) {
                                         Text("11:00 - 12:00")
+                                            .foregroundColor(Constants.black)
                                             .fontWeight(.semibold)
                                             .font(.callout)
                                             .lineSpacing(24)
                                         
                                         Text("Best Time")
+                                            .foregroundColor(Constants.black)
                                             .font(.subheadline)
                                             .lineSpacing(20)
                                     }
@@ -215,6 +224,7 @@ struct HomeView: View {
                                 .frame(width: 32, height: 32)
                             
                             Text("View Analytics")
+                                .foregroundColor(Constants.black)
                                 .fontWeight(.semibold)
                                 .font(.callout)
                                 .lineSpacing(24)
@@ -273,11 +283,13 @@ struct HomeView: View {
                                     
                                     VStack(alignment: .leading) {
                                         Text(link.title)
+                                            .foregroundColor(Constants.black)
                                             .lineLimit(1)
                                             .font(.subheadline)
                                             .lineSpacing(24)
                                         
                                         Text(convertDate(from: "yyyy-MM-dd'T'HH:mm:ss.SSSZ", to: "dd MMM yyyy", dateString: link.createdAt))
+                                            .foregroundColor(Constants.black)
                                             .font(.caption)
                                             .lineSpacing(18)
                                     }
@@ -291,6 +303,7 @@ struct HomeView: View {
                                             .lineSpacing(24)
                                         
                                         Text("Clicks")
+                                            .foregroundColor(Constants.black)
                                             .font(.caption)
                                             .lineSpacing(18)
                                     }
@@ -299,6 +312,7 @@ struct HomeView: View {
                                 
                                 HStack{
                                     Text(link.webLink)
+                                        .foregroundColor(Constants.black)
                                         .font(.subheadline)
                                         .lineSpacing(16)
                                         .frame(maxWidth: 213)
@@ -332,6 +346,7 @@ struct HomeView: View {
                                 .frame(width: 32, height: 32)
                             
                             Text("View all Links")
+                                .foregroundColor(Constants.black)
                                 .fontWeight(.semibold)
                                 .font(.callout)
                                 .lineSpacing(24)
